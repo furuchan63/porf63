@@ -23,7 +23,7 @@ class CFYOUText01 extends React.Component {
     render() {
       return (
         <div className="CFYOUTDIV01">
-          <img src="./cfyou_isomeric_mockup.jpg" alt="" className="mockupImg"></img>
+          <img src="./cfyou_isomeric_mockup.png" alt="" className="mockupImg"></img>
           <div className="margin160px">
           <p className="CFYOU_WorkName">CLINIC FOR YOU</p>
           <p className="Categorizing01">制作期間：
@@ -110,7 +110,7 @@ class CFYOUText01 extends React.Component {
           <p className="CARDSLIST_p1">
           CLINIC FORは以前よりクリニックの診察の予約を行えるサービスをWEB上で提供してきたため「CLINIC FOR YOU」ではその予約システムをモバイルアプリでより使いやすくなるように提供するため、リデザインをしました。特に予約日時選択のUIでは、既存のWEB版のUIでは目線の動きが必要以上に多く、スクロールしてしまうと分単位の時間を見失ってしまうという課題があり、より直感的に日時を選択できるものへと変更しました。
             </p>
-            <img src="./webclinicforImg.jpg" alt="" className="apoflowImg"></img>
+            <img src="./webclinicforImg.png" alt="" className="apoflowImg"></img>
 
             
         </div>
@@ -129,7 +129,7 @@ class CFYOUText01 extends React.Component {
 
           <p className="thirdtitle">UIのモデル</p>
           <p className="thirdtitle_p1">ファーストリリースで出す機能として、コアに求められていたのは、診察予約へのコンバージョンのみでした。診察の前後で発生するクラスやプロパティを抽出し、振り分けた結果、メニューとしては3つ用意することにしました。また、ユーザーはクリニックの詳細ページを閲覧し、そのページ内で診療予約を行うのが自然と判断し、3つのうち2つのメニュー内ではクリニックの詳細ページに手が届くように設計しました。</p>
-          <img src="./cfyou_uimodeling.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uimodeling.png" alt="" className="apoflowImg"></img>
 
           <p className="thirdtitle">オンボーディング</p>
           <p className="thirdtitle_p1">オンボーディングのタイプは各企業で様々でいろんな種類がありますが、当アプリを制作するにあたって以下のタイプを考慮しました。
@@ -139,29 +139,29 @@ class CFYOUText01 extends React.Component {
           <br></br>・ネイティブ広告のように各画面にさりげなく配置する「モジュールタイプ」
           <br></br>・指示に従って操作を進め、コンテンツを理解してもらう「インタラクティブなタイプ」
           <br></br><br></br>当アプリは、コアな機能として、シンプルにクリニックの予約を挙げており、真っ先に予約へとコンバージョンをしてもらうことができれば良いので「ツールチップ」や「インタラクティブ」なタイプが適切だと感じていましたが、プロジェクトの状況や、実装コストを踏まえ、単純に説明画面を並べる「スライドショータイプ」を採用しました。今後はプロジェクトの状況や離脱率を踏まえて最適化をしていきたいです。</p>
-          <img src="./cfyou_uiImg01.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uiImg01.png" alt="" className="apoflowImg"></img>
 
           <p className="thirdtitle">サインイン/サインアップページ</p>
           <p className="thirdtitle_p1">ターゲットユーザーとして、WEB版のサービスを元々利用していたユーザーを取り込みたいという意図から、ログインボタンを優先して設置しました。WEB版で提供していたメールアドレスによるログインとLINEログインをファーストビューでしっかりと視認できるようにし、加えて、2020年の5月のAppleの公式ガイドラインの改訂により、Appleログインも設置することになりました。そうした特性もあって、新規ユーザー登録を意図したがログインボタンを押してしまったユーザーが工数をかけずにユーザー登録のフローに復帰できるようなタブのデザインを工夫しました。また、細かいインタラクションとして、テキストボックス内の各プレースホルダーにおいても、ユーザーが困惑しないようなデザインをするように心がけました。</p>
-          <img src="./cfyou_uiImg02.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uiImg02.png" alt="" className="apoflowImg"></img>
 
           <p className="thirdtitle">クリニックページ</p>
           <p className="thirdtitle_p1">クリニックの詳細ページ内のボタンを押すことが予約へのコンバージョンとイコールの関係なので、同ページではフローティングさせたボタンを設置し、プライオリティの高い表現方法でボタンを設置しました。クリニックのリストページ、シングルページ共に、診療時間がファーストビューで視認することができないので、デザインとして反省しています。診療時間を軸にクリニックを選択するユーザーも中には存在するだろうから、ユーザーテストやヒアリングをしながら改善をしていきたい。</p>
-          <img src="./cfyou_uiImg03.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uiImg03.png" alt="" className="apoflowImg"></img>
 
           <p className="thirdtitle">予約ページ</p>
           <p className="thirdtitle_p1">予約メニューは「予定」としての予約と、「履歴」としての予約をタブで振り分けています。それぞれコレクション・ページと遷移先にシングルページがあり、予定の方のシングルページではキャンセルや、日時、決済方法が変更が行うことができ、履歴の方では診察後に受領する、領収書・明細書・処方されたお薬の情報を各情報を閲覧することができます。</p>
-          <img src="./cfyou_uiImg04.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uiImg04.png" alt="" className="apoflowImg"></img>
 
           <p className="thirdtitle">お薬情報</p>
           <p className="thirdtitle_p1">
           診察後、処方されたお薬の情報（処方箋）を確認するという行為は、領収書や明細書を予約履歴のページから確認する行為と近いものだと考え、予約履歴のページに紐づく形で閲覧できるようにしました。それぞれのページでは情報の優先順位を検討し、薬のリストページ（コレクション・ビュー）では主に処方されたお薬の名称とその量に関しての情報、シングルページでは上記の情報に加え、効果・効能や注意事項などの詳しい情報を掲載しています。
           </p>
-          <img src="./cfyou_uiImg05.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uiImg05.png" alt="" className="apoflowImg"></img>
 
           <p className="thirdtitle">マイページ</p>
           <p className="thirdtitle_p1">マイページはユーザーオブジェクトに紐づく情報を登録/編集できるような画面で、ユーザーにとっては診察の予約をするにあたって必要な情報をリストアしておくメニューになります。</p>
-          <img src="./cfyou_uiImg06.jpg" alt="" className="apoflowImg"></img>
+          <img src="./cfyou_uiImg06.png" alt="" className="apoflowImg"></img>
 
         </div>
       )

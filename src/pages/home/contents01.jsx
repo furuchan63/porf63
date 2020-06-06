@@ -6,7 +6,7 @@ export default class Work01 extends React.Component {
     render(){
         return(
         <div className="WorkBanner">
-            <img className="Work01" src="./work01.jpg"></img>
+            <img className="Work01" src="./work01.png"></img>
             <p className="WorkName_contents">CLINIC FOR YOU</p>
             <p className="WorkContents"> <Work01Text /></p>
             </div>
