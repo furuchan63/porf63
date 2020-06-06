@@ -716,6 +716,7 @@ color: #828282;
     letter-spacing: 0.03em;
     font-weight: 700;
     padding-top: 32px;
+    font-family: 'Nasu';
   }
   
   .bg_text_box_p1{
@@ -724,6 +725,7 @@ color: #828282;
     color: #ffffff;
     letter-spacing: 0.03em;
     font-weight: 500;
+    font-family: 'Nasu';
   }
 
   .bg_text_box_p2{
@@ -732,6 +734,7 @@ color: #828282;
     color: #ffffff;
     letter-spacing: 0.03em;
     font-weight: 500;
+    font-family: 'Nasu';
 
   }
 
@@ -781,7 +784,7 @@ color: #828282;
   .Button_01{
     margin-top: 16px;
     margin-bottom: 48px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     color: #008968;
   

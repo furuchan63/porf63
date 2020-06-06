@@ -22,7 +22,7 @@ class Header01 extends React.Component {
       <div className="">
         <header className="header_pc">
           <div className="headerLogo">
-          <Link to='/'><img src="./yuki_logo.svg" alt="" height="40px" />　</Link>
+          <Link to='/'><img src="./yuki_logo.png" alt="" height="40px" />　</Link>
           </div>
          <ul>
            <li><Link to='/'><a className="Title_about">Work</a></Link></li>
@@ -32,7 +32,7 @@ class Header01 extends React.Component {
          
          <header className="header_sp">
          <div className="headerLogo">
-          <Link to='/'><img src="./yuki_logo.svg" alt="" height="40px" />　</Link>
+          <Link to='/'><img src="./yuki_logo.png" alt="" height="40px" />　</Link>
           </div>
          <ul>
            <li><Link to='/'><a className="Title_about">Work</a></Link></li>
