@@ -104,7 +104,7 @@ header a{
   margin-top: -12px;
   font-size: 22px;
   color: #ffffff;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   font-weight: 500;
 }
 
@@ -167,7 +167,6 @@ footer{
 
 .First-view{
   background: #ffffff;
-  font-family: 'Nasu';
   width: 100%;
   overflow: hidden;
 }
@@ -175,7 +174,7 @@ footer{
 .First-view h1{
   font-size: 40px;
   color: #ffffff;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
 }
 
 .First-view p1{
@@ -382,7 +381,7 @@ color: #828282;
   background: -webkit-linear-gradient(90deg, #007973 -3.27%, rgba(0, 121, 115, 0.6) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   text-align: center;
   
 }
@@ -417,6 +416,13 @@ color: #828282;
   font-weight: 500;
   margin-right: 160px;
   margin-left: 160px;
+}
+
+.contents_p1{
+  font-size: 16px;
+  color: #13586A;
+  letter-spacing: 0.03em;
+  font-weight: 500;
 }
 
 .thirdtitle{
@@ -713,19 +719,17 @@ color: #828282;
   .bg_text_box_h1{
     font-size: 22px;
     color: #ffffff;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     font-weight: 700;
     padding-top: 32px;
-    font-family: 'Nasu';
   }
   
   .bg_text_box_p1{
     margin-top: -12px;
     font-size: 15px;
     color: #ffffff;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     font-weight: 500;
-    font-family: 'Nasu';
   }
 
   .bg_text_box_p2{
@@ -734,7 +738,6 @@ color: #828282;
     color: #ffffff;
     letter-spacing: 0.03em;
     font-weight: 500;
-    font-family: 'Nasu';
 
   }
 
@@ -1031,7 +1034,7 @@ color: #828282;
   .bg_text_box_h1{
     font-size: 42px;
     color: #ffffff;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     font-weight: 700;
   }
 
@@ -1047,7 +1050,7 @@ color: #828282;
   .bg_text_box_h1{
     font-size: 64px;
     color: #ffffff;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     font-weight: 700;
   }
 
